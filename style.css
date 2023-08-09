@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 #app {
-  background-image: url("assets/background.jpg");
+  background-image: url("/assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -15,7 +19,7 @@
   height: 100%;
 }
 
-.typewriter h1 {
+.typewriter h2 {
   overflow: hidden;
   border-right: 0.15em solid orange;
   white-space: nowrap;
